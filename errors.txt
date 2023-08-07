@@ -1,0 +1,199 @@
+Arduino: 1.8.19 (Windows 10), Board: "ESP32 Dev Module, Disabled, Disabled, Default 4MB with spiffs (1.2MB APP/1.5MB SPIFFS), 240MHz (WiFi/BT), QIO, 80MHz, 4MB (32Mb), 921600, Core 1, Core 1, None, Disabled"
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: C:\Users\manii\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32/lib\libfreertos.a(port_common.c.obj):(.literal.main_task+0x20): undefined reference to `app_main'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: C:\Users\manii\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11/tools/sdk/esp32/lib\libfreertos.a(port_common.c.obj): in function `main_task':
+
+/Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/port_common.c:130: undefined reference to `app_main'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: sketch\GasDetectioBlynk2.ino.cpp.o:(.literal._ZL14BLYNK_LOG_TIMEv+0x0): undefined reference to `Serial'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: sketch\GasDetectioBlynk2.ino.cpp.o:(.literal._ZL14BLYNK_LOG_TIMEv+0x8): undefined reference to `Print::print(char)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: sketch\GasDetectioBlynk2.ino.cpp.o:(.literal._ZL14BLYNK_LOG_TIMEv+0xc): undefined reference to `Print::print(unsigned int, int)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: sketch\GasDetectioBlynk2.ino.cpp.o:(.literal._ZL14BLYNK_LOG_TIMEv+0x10): undefined reference to `Print::print(char const*)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: sketch\GasDetectioBlynk2.ino.cpp.o:(.literal._ZN9BlynkWifi11connectWiFiEPKcS1_[_ZN9BlynkWifi11connectWiFiEPKcS1_]+0x10): undefined reference to `Print::println(char const*)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: sketch\GasDetectioBlynk2.ino.cpp.o:(.literal._ZN9BlynkWifi11connectWiFiEPKcS1_[_ZN9BlynkWifi11connectWiFiEPKcS1_]+0x14): undefined reference to `Print::print(unsigned char, int)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: sketch\GasDetectioBlynk2.ino.cpp.o:(.literal._ZN9BlynkWifi11connectWiFiEPKcS1_[_ZN9BlynkWifi11connectWiFiEPKcS1_]+0x18): undefined reference to `Print::println(unsigned char, int)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: sketch\GasDetectioBlynk2.ino.cpp.o:(.literal._ZN21BlynkArduinoClientGenI10WiFiClientE14_connectToPortEt[_ZN21BlynkArduinoClientGenI10WiFiClientE14_connectToPortEt]+0x0): undefined reference to `vtable for IPAddress'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: sketch\GasDetectioBlynk2.ino.cpp.o:(.literal._ZN21BlynkArduinoClientGenI10WiFiClientE14_connectToPortEt[_ZN21BlynkArduinoClientGenI10WiFiClientE14_connectToPortEt]+0x4): undefined reference to `Print::println(int, int)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: sketch\GasDetectioBlynk2.ino.cpp.o:(.literal._Z5setupv+0x2c): undefined reference to `HardwareSerial::begin(unsigned long, unsigned int, signed char, signed char, bool, unsigned long, unsigned char)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: sketch\GasDetectioBlynk2.ino.cpp.o:(.literal.startup._GLOBAL__sub_I_Blynk+0xc): undefined reference to `IPAddress::IPAddress()'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: sketch\GasDetectioBlynk2.ino.cpp.o: in function `BLYNK_LOG_TIME()':
+
+D:\Projects\codes\libraries\Blynk\src/Blynk/BlynkDebug.h:89: undefined reference to `Print::print(char)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/Blynk/BlynkDebug.h:90: undefined reference to `Print::print(unsigned int, int)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/Blynk/BlynkDebug.h:91: undefined reference to `Print::print(char const*)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: sketch\GasDetectioBlynk2.ino.cpp.o: in function `BlynkWifi::connectWiFi(char const*, char const*)':
+
+D:\Projects\codes\libraries\Blynk\src/BlynkSimpleEsp32.h:38: undefined reference to `Print::print(char const*)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/BlynkSimpleEsp32.h:38: undefined reference to `Print::println(char const*)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/BlynkSimpleEsp32.h:46: undefined reference to `Print::println(char const*)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/BlynkSimpleEsp32.h:48: undefined reference to `Print::print(char const*)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/BlynkSimpleEsp32.h:52: undefined reference to `Print::print(unsigned char, int)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/BlynkSimpleEsp32.h:52: undefined reference to `Print::print(char)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/BlynkSimpleEsp32.h:52: undefined reference to `Print::print(unsigned char, int)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/BlynkSimpleEsp32.h:52: undefined reference to `Print::print(char)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/BlynkSimpleEsp32.h:52: undefined reference to `Print::print(unsigned char, int)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/BlynkSimpleEsp32.h:52: undefined reference to `Print::print(char)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/BlynkSimpleEsp32.h:52: undefined reference to `Print::println(unsigned char, int)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: sketch\GasDetectioBlynk2.ino.cpp.o: in function `BlynkArduinoClientGen<WiFiClient>::_connectToPort(unsigned short)':
+
+D:\Projects\codes\libraries\Blynk\src/Adapters/BlynkArduinoClient.h:56: undefined reference to `Print::print(char const*)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/Adapters/BlynkArduinoClient.h:56: undefined reference to `Print::print(char const*)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/Adapters/BlynkArduinoClient.h:56: undefined reference to `Print::print(char)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/Adapters/BlynkArduinoClient.h:56: undefined reference to `Print::println(int, int)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/Adapters/BlynkArduinoClient.h:59: undefined reference to `Print::print(char const*)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/Adapters/BlynkArduinoClient.h:59: undefined reference to `Print::print(unsigned char, int)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/Adapters/BlynkArduinoClient.h:59: undefined reference to `Print::print(char)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/Adapters/BlynkArduinoClient.h:59: undefined reference to `Print::print(unsigned char, int)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/Adapters/BlynkArduinoClient.h:59: undefined reference to `Print::print(char)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/Adapters/BlynkArduinoClient.h:59: undefined reference to `Print::print(unsigned char, int)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/Adapters/BlynkArduinoClient.h:59: undefined reference to `Print::print(char)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/Adapters/BlynkArduinoClient.h:59: undefined reference to `Print::println(unsigned char, int)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: sketch\GasDetectioBlynk2.ino.cpp.o: in function `BlynkProtocol<BlynkArduinoClientGen<WiFiClient> >::run(bool)':
+
+D:\Projects\codes\libraries\Blynk\src/Blynk/BlynkProtocol.h:197: undefined reference to `Print::println(char const*)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/Blynk/BlynkProtocol.h:216: undefined reference to `Print::println(char const*)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: sketch\GasDetectioBlynk2.ino.cpp.o: in function `setup()':
+
+D:\Projects\codes\GasDetectioBlynk2/GasDetectioBlynk2.ino:14: undefined reference to `HardwareSerial::begin(unsigned long, unsigned int, signed char, signed char, bool, unsigned long, unsigned char)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: sketch\GasDetectioBlynk2.ino.cpp.o: in function `BlynkProtocol<BlynkArduinoClientGen<WiFiClient> >::printBanner()':
+
+D:\Projects\codes\libraries\Blynk\src/Blynk/BlynkProtocol.h:92: undefined reference to `Print::println(char const*)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: sketch\GasDetectioBlynk2.ino.cpp.o: in function `BlynkApi<BlynkProtocol<BlynkArduinoClientGen<WiFiClient> > >::processCmd(void const*, unsigned int)':
+
+D:\Projects\codes\libraries\Blynk\src/BlynkApiArduino.h:107: undefined reference to `Print::print(char const*)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/BlynkApiArduino.h:102: undefined reference to `Print::println(char const*)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: sketch\GasDetectioBlynk2.ino.cpp.o: in function `BlynkProtocol<BlynkArduinoClientGen<WiFiClient> >::processInput()':
+
+D:\Projects\codes\libraries\Blynk\src/Blynk/BlynkProtocol.h:260: undefined reference to `Print::print(char const*)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/Blynk/BlynkProtocol.h:263: undefined reference to `Print::print(unsigned int, int)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/Blynk/BlynkProtocol.h:263: undefined reference to `Print::println(char const*)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/Blynk/BlynkProtocol.h:272: undefined reference to `Print::println(char const*)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/Blynk/BlynkProtocol.h:276: undefined reference to `Print::print(char const*)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/Blynk/BlynkProtocol.h:280: undefined reference to `Print::println(int, int)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/Blynk/BlynkProtocol.h:284: undefined reference to `Print::print(char const*)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/Blynk/BlynkProtocol.h:293: undefined reference to `Print::println(int, int)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/Blynk/BlynkProtocol.h:412: undefined reference to `Print::println(char const*)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/Blynk/BlynkProtocol.h:350: undefined reference to `Print::print(char const*)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/Blynk/BlynkProtocol.h:351: undefined reference to `Print::print(char const*)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/Blynk/BlynkProtocol.h:353: undefined reference to `Print::print(char)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: sketch\GasDetectioBlynk2.ino.cpp.o: in function `BlynkParam::iterator::isValid() const':
+
+D:\Projects\codes\libraries\Blynk\src/Blynk/BlynkParam.h:55: undefined reference to `Print::println(int, int)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: sketch\GasDetectioBlynk2.ino.cpp.o: in function `BlynkProtocol<BlynkArduinoClientGen<WiFiClient> >::processInput()':
+
+D:\Projects\codes\libraries\Blynk\src/Blynk/BlynkProtocol.h:384: undefined reference to `Print::print(char const*)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: D:\Projects\codes\libraries\Blynk\src/Blynk/BlynkProtocol.h:385: undefined reference to `Print::println(char const*)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: sketch\GasDetectioBlynk2.ino.cpp.o: in function `BlynkArduinoClientGen<WiFiClient>::BlynkArduinoClientGen(WiFiClient&)':
+
+D:\Projects\codes\libraries\Blynk\src/Blynk/BlynkProtocol.h:408: undefined reference to `IPAddress::IPAddress()'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: libraries\WiFi\WiFiGeneric.cpp.o:(.literal._ZL23wifi_dns_found_callbackPKcPK7ip_addrPv+0x4): undefined reference to `IPAddress::operator=(unsigned int)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: libraries\WiFi\WiFiGeneric.cpp.o:(.literal._ZN16WiFiGenericClass10hostByNameEPKcR9IPAddress+0x10): undefined reference to `IPAddress::fromString(char const*)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: libraries\WiFi\WiFiGeneric.cpp.o: in function `wifi_dns_found_callback(char const*, ip_addr const*, void*)':
+
+C:\Users\manii\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11\libraries\WiFi\src/WiFiGeneric.cpp:1549: undefined reference to `IPAddress::operator=(unsigned int)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: libraries\WiFi\WiFiGeneric.cpp.o: in function `WiFiGenericClass::hostByName(char const*, IPAddress&)':
+
+C:\Users\manii\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11\libraries\WiFi\src/WiFiGeneric.cpp:1563: undefined reference to `IPAddress::fromString(char const*)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: C:\Users\manii\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11\libraries\WiFi\src/WiFiGeneric.cpp:1566: undefined reference to `IPAddress::operator=(unsigned int)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: C:\Users\manii\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11\libraries\WiFi\src/WiFiGeneric.cpp:1570: undefined reference to `IPAddress::operator=(unsigned int)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: libraries\WiFi\WiFiSTA.cpp.o:(.literal._ZN12WiFiSTAClass5beginEPKcS1_iPKhb$part$2+0x10): undefined reference to `INADDR_NONE'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: libraries\WiFi\WiFiSTA.cpp.o: in function `WiFiSTAClass::localIP()':
+
+C:\Users\manii\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11\libraries\WiFi\src/WiFiSTA.cpp:515: undefined reference to `IPAddress::IPAddress()'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: C:\Users\manii\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11\libraries\WiFi\src/WiFiSTA.cpp:523: undefined reference to `IPAddress::IPAddress(unsigned int)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: libraries\WiFi\WiFiClient.cpp.o:(.literal._ZN10WiFiClient7connectEPKcti+0x0): undefined reference to `IPAddress::IPAddress(unsigned int)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: libraries\WiFi\WiFiClient.cpp.o:(.literal._ZN10WiFiClient10setTimeoutEj+0x8): undefined reference to `Stream::setTimeout(unsigned long)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: libraries\WiFi\WiFiClient.cpp.o: in function `WiFiClient::connect(char const*, unsigned short, int)':
+
+C:\Users\manii\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11\libraries\WiFi\src/WiFiClient.cpp:297: undefined reference to `IPAddress::IPAddress(unsigned int)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: libraries\WiFi\WiFiClient.cpp.o: in function `WiFiClient::setTimeout(unsigned int)':
+
+C:\Users\manii\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.11\libraries\WiFi\src/WiFiClient.cpp:320: undefined reference to `Stream::setTimeout(unsigned long)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: libraries\WiFi\WiFiClient.cpp.o:(.rodata._ZTV10WiFiClient[_ZTV10WiFiClient]+0x2c): undefined reference to `Stream::readBytes(char*, unsigned int)'
+
+c:/users/manii/appdata/local/arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/esp-2021r2-patch5-8.4.0/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/ld.exe: libraries\WiFi\WiFiClient.cpp.o:(.rodata._ZTV10WiFiClient[_ZTV10WiFiClient]+0x34): undefined reference to `Stream::readString()'
+
+collect2.exe: error: ld returned 1 exit status
+
+exit status 1
+
+Error compiling for board ESP32 Dev Module.
+
+
+
+This report would have more information with
+"Show verbose output during compilation"
+option enabled in File -> Preferences.
